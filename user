@@ -1,0 +1,51 @@
+package encapsulation;
+
+public class User {
+
+	private int userID;
+	private String username;
+	private String firstName, lastName;
+	
+	User(int ID, String user_name, String first_name, String last_name){
+		this.userID  = ID;
+		this.username = user_name;
+		this.firstName = first_name;
+		this.lastName = last_name;
+	}
+	
+	void setUserID(int user_ID) {
+		this.userID  = user_ID;
+	}
+	
+	int getUserID() {
+		return userID;
+	}
+	
+	void setUserName(String user_Name) {
+		this.username = user_Name;
+	}
+	
+	String getUserName() {
+		return username;
+	}
+	
+	void setFirstName(String first_Name) {
+		this.firstName = first_Name;
+	}
+	
+	String getFirstName() {
+		return firstName;
+	}
+	
+	void setLastName(String last_Name) {
+		this.lastName = last_Name;
+	}
+	
+	String getLastName() {
+		return lastName;
+	}
+	
+	
+	
+	
+}
