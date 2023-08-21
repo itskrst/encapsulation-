@@ -1,0 +1,25 @@
+package encapsulation;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		User x = new User(27348, "Kirsten", "Hailey", "Escueta");
+		
+		x.setUserID(93498);
+		int id = x.getUserID();
+		
+		System.out.println(id);
+		
+		x.setFirstName("Alexandria");
+		String f_name = x.getFirstName();
+		
+		System.out.println(f_name);
+		
+		x.setLastName("Cromello");
+		String l_name = x.getLastName();
+		
+		System.out.print(l_name);
+	}
+
+}
